@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+ul,ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #fff !important;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+}
+.title h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #222222;
+    text-transform: uppercase;
+    position: relative;
+}
+.title h2::after {
+    width: 100px;
+    height: 1px;
+    background: #78d6fa;
+    position: absolute;
+    top: 171%;
+    left: 50%;
+    content: '';
+    transform: translateX(-50%);
+}
+/* nav start */
+nav {
+    background: #000;
+}
+nav ul li {
+    margin: 0 0 0 50px;
+}
+nav ul li a {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase; 
+}
+/* nav end */
+/* banner start */
+.banner_part {
+    background: url(../images/banner.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+.banner_part .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,.7);
+    padding: 176px 0 137px 0;
+}
+.banner_part .text_con h1 {
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.banner_part .line {
+    width: 120px;
+    height: 3px;
+    background: #35b9eb;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.banner_part .text_con .detail {
+    margin: 100px 0;
+}
+.banner_part .text_con p {
+    font-size: 20px;
+    font-weight: 400;
+}
+/* banner end */
+/* service start */
+.service_part {
+    padding: 75px;
+}
+.service_part .title {
+    position: relative;
+}
+.service_part .title h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #222222;
+    text-transform: uppercase;
+}
+.service_part .title h2::after {
+    width: 100px;
+    height: 1px;
+    background: #78d6fa;
+    position: absolute;
+    top: 171%;
+    left: 50%;
+    content: '';
+    transform: translateX(-50%);
+}
+.service_part .service_con .item .img {
+	margin: 110px 0 40px 0;
+}
+.service_part .service_con .item .details h2 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #222222;
+    text-transform: uppercase;
+    margin: 0 0 15px 0;
+}
+.service_part .service_con .item .details p {
+	font-family: "Noto Sans", system-ui;
+	font-size: 14px;
+	font-weight: 400;
+	color: #888888;
+	width: 300px;
+	margin: 0 auto;
+}
+/* service end */
+/* other_expertise start */
+.other_expert {
+    background: url(../images/expart.jpg) no-repeat center;
+    background-size: cover;
+    padding: 100px 0 90px 0;
+}
+.other_expert .title h2::after {
+    width: 0;
+}
+.other_expert .title h2 {
+    margin: 0 0 20px 0;
+}
+.other_expert .title p {
+    color: #777777;
+    font-size: 16px;
+    font-family: "Noto Sans", system-ui;
+    font-weight: 400;
+}
+.other_expert .expart_con {
+    margin: 50px 0 0 0;
+}
+.other_expert .expart_con .support_con {
+    margin:  20px 0 0 0;
+}
+.other_expert .expart_con .item .icon {
+    width: 40px;
+}
+.other_expert .expart_con .item .deta {
+    margin: 0 0 0 10px;
+}
+.other_expert .expart_con .item .deta h2 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #222222;
+    text-transform: uppercase;
+}
+.other_expert .expart_con .item .deta p {
+	font-size: 14px;
+	font-weight: 400;
+	color: #777777;
+	width: 400px;
+}
+.other_expert .expart_con .securety_con {
+    margin:  20px 0 0 0;
+}
+.other_expert .expart_con .securety_con .icon img {
+    margin: 0 10px;
+}
+.other_expert .btn a {
+    border: 1px solid #35b9eb;
+    background: #fff;
+    border-radius: 40px;
+    color: #222222 !important;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    margin: 40px 0 0 0;
+}
+/* other_expertise end */
+/* portfolio start */
+.portfolio_part {
+    background: #fff;
+    padding: 80px 0;
+}
+.portfolio_part .port_detail .title h2::after {
+    width: 0;
+}
+.portfolio_part .port_detail .title {
+    margin: 0 0 20px 0;
+}
+.portfolio_part .text_con {
+    background: url(../images/portpolio_background.jpg) no-repeat center;
+    background-size: cover;
+}
+.portfolio_part .text_con p {
+    font-family: "Noto Sans", system-ui;
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+    width: 545px;
+    margin: 30px 0 0 0;
+}
+.portfolio_part .description {
+    margin: 50px 0 0 0;
+}
+.portfolio_part .description .item {
+    margin: 0 0 30px 0;
+}
+.portfolio_part .description .deta {
+    margin: 0 0 0 10px;
+}
+.portfolio_part .description .deta h2 {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+}
+.portfolio_part .description .deta p {
+    font-family: "Noto Sans", system-ui;
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+    width: 445px;
+    margin: 5px 0 0 0;
+}
+/* portfolio end */
